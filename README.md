@@ -37,6 +37,15 @@ src/render/    Vulkan backend
 shaders/       GLSL, compiled to SPIR-V at build time
 ```
 
+## Engineering with Devin
+
+This repo plans to use Devin as its engineering teammate:
+
+- **CI**: GitHub Actions builds on Linux and Windows, plus macOS (MoltenVK).
+- **Vulkan testing**: run 300 frames with the validation layer on, and file issues with fix PRs for any errors.
+- **Regression checks**: fixed-seed screenshot diffs and a frame-rate baseline (200k stars at 120 fps).
+- **Milestone work**: I write the spec, Devin opens the PR, and I review and merge.
+
 ## Roadmap
 
 | Milestone | Content | Status |
